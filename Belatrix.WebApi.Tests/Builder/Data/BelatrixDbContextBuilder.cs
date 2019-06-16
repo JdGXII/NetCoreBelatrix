@@ -1,11 +1,8 @@
 ﻿using Belatrix.WebApi.Repository.Postgresql;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Belatrix.WebApi.Tests.Builder.Data
-{    
+{
     public partial class BelatrixDbContextBuilder
     {
         private BelatrixDbContext _context;
